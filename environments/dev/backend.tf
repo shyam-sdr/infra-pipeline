@@ -9,7 +9,6 @@ terraform {
     bucket = "infra-s3-pipeline"
     key    = "dev/terraform.tfstate"
     region = "ap-south-1"
-    dynamodb_table = "infra-table"
   }
   
 }
